@@ -29,7 +29,8 @@ router.get("/inbox", async (_, res) => {
 });
 
 router.get("/proxy/:proxyUrl*", (req, res) => {
-  req.url = req.url.replace("/proxy/", "/"); // Strip '/proxy' from the front of the URL, else the proxy won't work.
+  // Strip '/proxy' from the front of the URL, else the proxy won't work.
+  req.url = req.url.replace("/proxy/", "/");
   proxy.emit("request", req, res);
 });
 

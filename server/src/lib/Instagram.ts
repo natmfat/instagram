@@ -1,6 +1,5 @@
 import {
   IgApiClient,
-  type AccountRepositoryLoginResponseLogged_in_user,
   type DirectInboxFeedResponseThreadsItem,
 } from "instagram-private-api";
 import invariant from "invariant";
