@@ -1,7 +1,7 @@
-import { cn } from "../lib/cn";
-import { corsAnywhere } from "../lib/corsAnywhere";
+import { cn } from "../../../lib/cn";
+import { corsAnywhere } from "../../../lib/corsAnywhere";
 import { PersonIcon } from "@radix-ui/react-icons";
-import type { User } from "../lib/instagram.types";
+import type { User } from "../../../lib/instagram.types";
 
 const PROFILE_CLASS_NAME =
   "h-12 w-12 flex-shrink-0 bg-gray-200 rounded-full border border-gray-300 object-cover";
